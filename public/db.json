@@ -1,47 +1,77 @@
 [
   {
-    "name": "Aidan 6 Seater Dining Table",
-    "price": 720,
-    "type": "Dining Table",
-    "delivery": "within 2 days",
-    "brand": "aftab",
-    "rating": 4,
-    "image": "./img/Aftab.png"
+    "name": "Kulsum Begum",
+    "age": 21,
+    "height": "5.6 inch",
+    "location": "Malayshiya",
+    "cost": 80,
+    "isAvailable": true,
+    "email": "kulsum@gmail.com",
+    "image": "./img/model 1.jpg"
   },
   {
-    "name": "Ava Bedsides Table",
-    "price": 75,
-    "type": "Bedside Table",
-    "delivery": "within 1 days",
-    "brand": "Ava",
-    "rating": 3,
-    "image": "./img/Ava.png"
+    "name": "Purnima Khan",
+    "age": 23,
+    "height":"5.7 inch",
+    "location": "Singapore",
+    "cost": 70,
+    "isAvailable": true,
+    "email": "kulsum@gmail.com",
+    "image": "./img/model 2.jpg"
   },
   {
-    "name": "Greyson Dining Table",
-    "price": 899,
-    "type": "Dining Table",
-    "delivery": "within 3 days",
-    "brand": "Canyon",
-    "rating": 5,
-    "image": "./img/Greyson.png"
+    "name": "Jhonson Marry",
+    "age": 20,
+    "height":"5.5 inch",
+    "location": "Ghana",
+    "cost": 65,
+    "isAvailable": false,
+    "email": "kulsum@gmail.com",
+    "image": "./img/model 3.jpg"
   },
   {
-    "name": "Camelia Round Dining Table",
-    "price": 799,
-    "type": "Dining Table",
-    "delivery": "within 5 days",
-    "brand": "Camelia",
-    "rating": 5,
-    "image": "./img/Canyon.png"
+    "name": "Bolt max",
+    "age": 25,
+    "location": "USA",
+    "cost": 90,
+    "isAvailable": true,
+    "email": "kulsum@gmail.com",
+    "image": "./img/model 4.jpg"
   },
   {
-    "name": "Brothers Stylish Dining Table",
-    "price": 1500,
-    "type": "Dining Table",
-    "delivery": "within 4 days",
-    "brand": "Brothers",
-    "rating": 3,
-    "image": "./img/Brothers.png"
+    "name": "Alesia Gray",
+    "age": 22,
+    "location": "Canada",
+    "cost": 85,
+    "isAvailable": true,
+    "email": "kulsum@gmail.com",
+    "image": "./img/model 5.jpg"
+  },
+  {
+    "name": "Max Nolan",
+    "age": 28,
+    "location": "Dubai",
+    "cost": 95,
+    "isAvailable": true,
+    "email": "kulsum@gmail.com",
+    "image": "./img/model 6.jpg"
+  },
+  {
+    "name": "Cristian Finn",
+    "age": 24,
+    "location": "Germany",
+    "cost": 78,
+    "isAvailable": true,
+    "email": "kulsum@gmail.com",
+    "image": "./img/model 7.jpg"
+  },
+  {
+    "name": "Mike Tyson",
+    "age": 27,
+    "location": "USA",
+    "cost": 99,
+    "isAvailable": false,
+    "email": "kulsum@gmail.com",
+    "image": "./img/model 8.jpg"
   }
 ]
