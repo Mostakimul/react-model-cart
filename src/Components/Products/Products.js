@@ -24,9 +24,9 @@ const Products = () => {
   };
 
   return (
-    <div className="row g-2">
+    <div className="row g-2 mb-5">
       {/* Products section */}
-      <div className="col-8 bg-light rounded-3">
+      <div className="col-8 bg-light rounded-3 pb-3">
         <div className="row row-cols-1 row-cols-md-3 g-4 m-2">
           {models.map((model) => (
             <Product

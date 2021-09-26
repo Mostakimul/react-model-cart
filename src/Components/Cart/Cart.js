@@ -1,5 +1,5 @@
 import React from 'react';
-import Name from '../Name/Name';
+import Name from '../CartName/CartName';
 
 const Cart = (props) => {
   // console.log(props.cartModels);
@@ -19,17 +19,17 @@ const Cart = (props) => {
   return (
     <div className="card border-0 p-2 shadow">
       <div className="card-title">
-        <h3 className="text-center">Hired</h3>
+        <h3 className="text-center shadow p-2">Hired</h3>
       </div>
       <div className="card-body">
-        <p>Total Hired: {allModels.length}</p>
-        <p>Added Products:</p>
+        <p className="fw-bold">Total Hired: {allModels.length}</p>
+        <p className="fw-bold">Added Models:</p>
         <div>
           {allModels.map((model) => (
             <Name key={model.id} model={model}></Name>
           ))}
         </div>
-        <p className="mt-2 shadow p-2">Total Cost: ${totalCost}</p>
+        <p className="mt-4 shadow p-2 fw-bold">Total Cost: ${totalCost}</p>
       </div>
     </div>
   );

@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaCheckCircle, FaTimesCircle } from 'react-icons/fa';
+import { FcAddressBook } from 'react-icons/fc';
 
 const Product = (props) => {
   // console.log(props.handleAddToCart);
@@ -10,13 +12,20 @@ const Product = (props) => {
       <div className="card h-100 shadow">
         <img src={image} className="card-img-top" height="300px" alt={name} />
         <div className="card-body">
-          <h5 className="card-title">{name}</h5>
-          <p className="card-text">Age: {age}</p>
-          <p className="card-text">Height: {height}</p>
+          <h5 className="card-title fw-bold">{name}</h5>
+          <p className="card-text d-flex justify-content-between">
+            <span>Age: {age}</span> <span>Height: {height}</span>
+          </p>
           <p className="card-text">Location: {location}</p>
-          <p className="card-text">Cost: ${cost}/hour</p>
-          <p className="card-text">Available: {isAvailable}</p>
-          <p className="card-text">Email: {email}</p>
+          <p className="card-text">
+            Cost: <span className="fw-bold">${cost}/hour</span>
+          </p>
+          <p className="card-text">
+            Available: {isAvailable ? <FaCheckCircle /> : <FaTimesCircle />}
+          </p>
+          <p className="card-text">
+            <FcAddressBook /> {email}
+          </p>
         </div>
         <div className="card-footer d-grid mx-auto col-12">
           <button
