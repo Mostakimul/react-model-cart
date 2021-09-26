@@ -19,7 +19,7 @@ const Products = () => {
       {/* Products section */}
       <div className="col-8 bg-light rounded-3">
         {models.map((model) => (
-          <Product></Product>
+          <Product key={model.id} model={model}></Product>
         ))}
       </div>
       {/* empty div */}
