@@ -116,7 +116,7 @@
     "height": "5.7 inch",
     "location": "Italy",
     "cost": 150,
-    "isAvailable": false,
+    "isAvailable": true,
     "email": "federica@gmail.com",
     "image": "./img/model 11.jpg"
   },

@@ -17,7 +17,7 @@ const Cart = (props) => {
     totalCost = totalCost + model.cost;
   });
   return (
-    <div className="card border-0 p-2 shadow">
+    <div className="card border-0 p-2 shadow sticky-top mt-2">
       <div className="card-title">
         <h3 className="text-center shadow p-2">Hired</h3>
       </div>
