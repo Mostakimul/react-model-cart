@@ -17,7 +17,7 @@ const Product = (props) => {
           <p className="card-text">Available: {isAvailable}</p>
           <p className="card-text">Email: {email}</p>
         </div>
-        <div class="card-footer d-grid mx-auto col-12">
+        <div className="card-footer d-grid mx-auto col-12">
           <button className="btn btn-dark">Hire Now</button>
         </div>
       </div>

@@ -2,8 +2,14 @@ import React from 'react';
 
 const Cart = () => {
   return (
-    <div>
-      <h3>Cart Page</h3>
+    <div className="card border-0 p-2 shadow">
+      <div className="card-title">
+        <h3 className="text-center">Hired</h3>
+      </div>
+      <div className="card-body">
+        <p>Total Hired: 0</p>
+        <p>Total Cost: $10</p>
+      </div>
     </div>
   );
 };
