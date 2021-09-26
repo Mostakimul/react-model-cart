@@ -26,7 +26,7 @@ const Products = () => {
   return (
     <div className="row g-2 mb-5">
       {/* Products section */}
-      <div className="col-8 bg-light rounded-3 pb-3 mt-3">
+      <div className="col-12 col-md-8 order-last order-md-first bg-light rounded-3 pb-3 mt-3">
         <div className="row row-cols-1 row-cols-md-3 g-4 m-2">
           {models.map((model) => (
             <Product
@@ -38,9 +38,9 @@ const Products = () => {
         </div>
       </div>
       {/* empty div */}
-      <div className="col-1"></div>
+      <div className="col-md-1"></div>
       {/* Cart section */}
-      <div className="col-3 rounded-3">
+      <div className="col-12 col-md-3 order-first order-md-last rounded-3">
         <Cart cartModels={cartModels}></Cart>
       </div>
     </div>
