@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Kulsum Begum",
     "age": 21,
     "height": "5.6 inch",
@@ -10,6 +11,7 @@
     "image": "./img/model 1.jpg"
   },
   {
+    "id": 2,
     "name": "Purnima Khan",
     "age": 23,
     "height":"5.7 inch",
@@ -20,6 +22,7 @@
     "image": "./img/model 2.jpg"
   },
   {
+    "id": 3,
     "name": "Jhonson Marry",
     "age": 20,
     "height":"5.5 inch",
@@ -30,8 +33,10 @@
     "image": "./img/model 3.jpg"
   },
   {
+    "id": 4,
     "name": "Bolt max",
     "age": 25,
+    "height": "5.6 inch",
     "location": "USA",
     "cost": 90,
     "isAvailable": true,
@@ -39,8 +44,10 @@
     "image": "./img/model 4.jpg"
   },
   {
+    "id": 5,
     "name": "Alesia Gray",
     "age": 22,
+    "height": "5.6 inch",
     "location": "Canada",
     "cost": 85,
     "isAvailable": true,
@@ -48,8 +55,10 @@
     "image": "./img/model 5.jpg"
   },
   {
+    "id": 6,
     "name": "Max Nolan",
     "age": 28,
+    "height": "5.6 inch",
     "location": "Dubai",
     "cost": 95,
     "isAvailable": true,
@@ -57,8 +66,10 @@
     "image": "./img/model 6.jpg"
   },
   {
+    "id": 7,
     "name": "Cristian Finn",
     "age": 24,
+    "height": "5.6 inch",
     "location": "Germany",
     "cost": 78,
     "isAvailable": true,
@@ -66,8 +77,10 @@
     "image": "./img/model 7.jpg"
   },
   {
+    "id": 8,
     "name": "Mike Tyson",
     "age": 27,
+    "height": "5.6 inch",
     "location": "USA",
     "cost": 99,
     "isAvailable": false,
