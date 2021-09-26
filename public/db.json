@@ -18,7 +18,7 @@
     "location": "Singapore",
     "cost": 70,
     "isAvailable": true,
-    "email": "kulsum@gmail.com",
+    "email": "purnima@gmail.com",
     "image": "./img/model 2.jpg"
   },
   {
@@ -29,7 +29,7 @@
     "location": "Ghana",
     "cost": 65,
     "isAvailable": false,
-    "email": "kulsum@gmail.com",
+    "email": "jhonson@gmail.com",
     "image": "./img/model 3.jpg"
   },
   {
@@ -40,51 +40,95 @@
     "location": "USA",
     "cost": 90,
     "isAvailable": true,
-    "email": "kulsum@gmail.com",
+    "email": "bolt@gmail.com",
     "image": "./img/model 4.jpg"
   },
   {
     "id": 5,
     "name": "Alesia Gray",
     "age": 22,
-    "height": "5.6 inch",
+    "height": "5.9 inch",
     "location": "Canada",
     "cost": 85,
     "isAvailable": true,
-    "email": "kulsum@gmail.com",
+    "email": "alesia@gmail.com",
     "image": "./img/model 5.jpg"
   },
   {
     "id": 6,
     "name": "Max Nolan",
     "age": 28,
-    "height": "5.6 inch",
+    "height": "5.11 inch",
     "location": "Dubai",
     "cost": 95,
     "isAvailable": true,
-    "email": "kulsum@gmail.com",
+    "email": "max@gmail.com",
     "image": "./img/model 6.jpg"
   },
   {
     "id": 7,
     "name": "Cristian Finn",
     "age": 24,
-    "height": "5.6 inch",
+    "height": "5.10 inch",
     "location": "Germany",
     "cost": 78,
     "isAvailable": true,
-    "email": "kulsum@gmail.com",
+    "email": "cristian@gmail.com",
     "image": "./img/model 7.jpg"
   },
   {
     "id": 8,
     "name": "Mike Tyson",
     "age": 27,
-    "height": "5.6 inch",
+    "height": "6.1 inch",
     "location": "USA",
     "cost": 99,
     "isAvailable": false,
-    "email": "kulsum@gmail.com",
+    "email": "mike@gmail.com",
     "image": "./img/model 8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Ana bela",
+    "age": 33,
+    "height": "5.10 inch",
+    "location": "USA",
+    "cost": 109,
+    "isAvailable": true,
+    "email": "ana@gmail.com",
+    "image": "./img/model 9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Marwa Mallik",
+    "age": 25,
+    "height": "5.10 inch",
+    "location": "Pakistan",
+    "cost": 65,
+    "isAvailable": false,
+    "email": "marwa@gmail.com",
+    "image": "./img/model 10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Federica Briganti",
+    "age": 24,
+    "height": "5.7 inch",
+    "location": "Italy",
+    "cost": 150,
+    "isAvailable": false,
+    "email": "federica@gmail.com",
+    "image": "./img/model 11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Luca Maccalii",
+    "age": 25,
+    "height": "6.1 inch",
+    "location": "Italy",
+    "cost": 89,
+    "isAvailable": false,
+    "email": "luca@gmail.com",
+    "image": "./img/model 12.jpg"
   }
 ]
