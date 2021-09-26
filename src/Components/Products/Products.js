@@ -18,9 +18,11 @@ const Products = () => {
     <div className="row g-2">
       {/* Products section */}
       <div className="col-8 bg-light rounded-3">
-        {models.map((model) => (
-          <Product key={model.id} model={model}></Product>
-        ))}
+        <div className="row row-cols-1 row-cols-md-3 g-4 m-2">
+          {models.map((model) => (
+            <Product key={model.id} model={model}></Product>
+          ))}
+        </div>
       </div>
       {/* empty div */}
       <div className="col-1"></div>
