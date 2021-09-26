@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Aidan 6 Seater Dining Table",
+    "price": 720,
+    "type": "Dining Table",
+    "delivery": "within 2 days",
+    "brand": "aftab",
+    "rating": 4,
+    "image": "./img/Aftab.png"
+  },
+  {
+    "name": "Ava Bedsides Table",
+    "price": 75,
+    "type": "Bedside Table",
+    "delivery": "within 1 days",
+    "brand": "Ava",
+    "rating": 3,
+    "image": "./img/Ava.png"
+  },
+  {
+    "name": "Greyson Dining Table",
+    "price": 899,
+    "type": "Dining Table",
+    "delivery": "within 3 days",
+    "brand": "Canyon",
+    "rating": 5,
+    "image": "./img/Greyson.png"
+  },
+  {
+    "name": "Camelia Round Dining Table",
+    "price": 799,
+    "type": "Dining Table",
+    "delivery": "within 5 days",
+    "brand": "Camelia",
+    "rating": 5,
+    "image": "./img/Canyon.png"
+  },
+  {
+    "name": "Brothers Stylish Dining Table",
+    "price": 1500,
+    "type": "Dining Table",
+    "delivery": "within 4 days",
+    "brand": "Brothers",
+    "rating": 3,
+    "image": "./img/Brothers.png"
+  }
+]

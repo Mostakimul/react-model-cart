@@ -1,7 +1,14 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import logo from './logo.svg';
 
 function App() {
+  const [furnitures, setFurnitures] = useState([]);
+  useEffect(() => {
+    fetch('./db.json')
+      .then((res) => res.json())
+      .then((data) => console.log(data));
+  }, []);
   return (
     <div className="App">
       <header className="App-header">
